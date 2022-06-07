@@ -1,0 +1,89 @@
+\documentclass[paper=a4]{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{titling}
+
+\titleformat{\section}
+{\huge\bfseries\centering}
+{}
+{0em}
+{}[\titlerule]
+
+\titleformat{\subsection}
+{\bfseries\LARGE\centering}
+{}
+{0em}
+{}
+
+\titleformat{\subsubsection}
+{\bfseries\large}
+{}
+{0em}
+{}
+
+
+\renewcommand{\maketitle}{
+\begin{center}
+	{\huge\bfseries\thetitle\\
+	\em\large\bfseries\theauthor\\
+	\thedate
+	}
+\end{center}
+}
+
+\begin{document}
+
+\author{Ali Aliyev}
+\date{\today}
+\title{GRE notes}
+\maketitle
+
+\section{Reading Comprehension}
+
+\subsection{Question Types}
+
+\subsubsection{Global}
+About passage as a whole (e.g. purpose, tone of author)
+\subsubsection{Detail}
+Identify specific detail from passage - ``according to the author'', ``is mentioned in the passage''
+\subsubsection{Inference}
+Answer that must be true based on the passage - ``suggests'', ``implies'', ``most likely agrees''
+\subsubsection{Logic}
+Describe why author included certain word or phrase - ``in order to'', ``primarily serves to''
+\subsubsection{Vocab-in-Context}
+Identify the meaning of the word used in the passage
+\subsubsection{Reasoning}
+Identify, point out a flaw in, stengthen or weaken author's reasoning in an argument
+
+
+
+\subsection{Reasoning Questions}
+\begin{itemize}
+\item argument=evidence+conclusion
+\item conclusion is a prediction, separated with key word (e.g. \em therefore)
+\end{itemize}
+
+\subsubsection{Scope Shift arguments}
+\begin{itemize}
+	\item Discusses different subject in conclusion
+	\item Attack assumption that connects cause to result (i.e. emotional distress $\rightarrow$ anxiety)
+	\item To weaken - look for answer that \textbf{refutes} relation between cause and result.
+	\item To strengthen - look for answer that \textbf{supports} relation between cause and result.
+\end{itemize}
+
+\subsubsection{Representativeness arguments}
+\begin{itemize}
+	\item Assuming subjects in evidence (e.g. survey) represent the target group in conclusion.
+	\item Information about one group used to draw conclusion about bigger group.
+	\item To weaken - find argument that says two groups are \textbf{different}.
+	\item To strengthen - find argument that states two groups are \textbf{similar}.
+\end{itemize}
+
+\subsubsection{Causal arguments}
+\begin{itemize}
+	\item Confuse correlation with causation.
+	\item Bad cases decreased so new system is working.
+	\item Failure to consider effects of other parameters on final result.
+\end{itemize}
+
+\end{document}
